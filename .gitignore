@@ -1,3 +1,4 @@
+# A
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -92,6 +93,7 @@ ipython_config.py
 #Pipfile.lock
 
 # PEP 582; used by e.g. github.com/David-OConnor/pyflow
+B
 __pypackages__/
 
 # Celery stuff
@@ -103,6 +105,7 @@ celerybeat.pid
 
 # Environments
 .env
+B
 .venv
 env/
 venv/
@@ -127,3 +130,13 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+*.pkl
+*.h5
+*.pkl
+*.h5
+*.obj
+*.png
+*.txt
+*.pth
+*.mp4
