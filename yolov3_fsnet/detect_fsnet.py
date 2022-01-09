@@ -164,7 +164,7 @@ if __name__ == '__main__':
     print(opt)
 
     cate = 'laptop'
-    fold = 'FS_Net/yolov3_fsnet/data/test_scene_1/' ##should be absolute path
+    fold = 'data/test_scene_1/' ##should be absolute path
 
     classifier_seg3D, classifier_ce, classifier_Rot_green, classifier_Rot_red, model_size, cate_id0 = load_models(
         cate)
