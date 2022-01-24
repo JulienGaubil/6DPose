@@ -44,7 +44,7 @@ hour = localtime.tm_hour  #heure du début du training
 
 cats = ['bottle','bowl','can','camera','laptop','mug']  #à modifier, catégories pour NOCS Real
 
-for cat in ['laptop']:  #à modifier, n'entraîne que sur la catégorie 'laptop' pour NOCS
+for cat in cats :  #à modifier, n'entraîne que sur la catégorie 'laptop' pour NOCS
 
 
     classifier_seg3D = GCN3D_segR(class_num=2, vec_num = 1,support_num= 7, neighbor_num= 10)  #module de convolution de graphe 3D
