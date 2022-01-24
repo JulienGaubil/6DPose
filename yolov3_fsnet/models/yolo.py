@@ -4,7 +4,7 @@ import argparse
 import logging
 import sys
 from copy import deepcopy
-#import matplotlib; matplotlib.use('TkAgg')
+import matplotlib; matplotlib.use('TkAgg')
 import matplotlib.pyplot as plt
 sys.path.append('./')  # to run '$ python *.py' files in subdirectories
 logger = logging.getLogger(__name__)
